@@ -1,0 +1,362 @@
+img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.social li {
+    font-size: 50px;
+    color: #e6e6e6;
+}
+
+.social{
+    margin-left: -40px;
+}
+
+p{
+    text-align: left;
+}
+
+*
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body, input, textarea
+{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.85em;
+    color: #888;
+    font-weight: 300;
+}
+
+a
+{
+    color: #3B95C6;
+    text-decoration: underline;
+    -moz-transition: color .2s ease-in-out;
+    -webkit-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+
+a:hover
+{
+    color: #1B75A6 !important;
+}
+
+a img
+{
+    border: 0;
+}
+
+strong, b
+{
+    font-weight: 600;
+    color: #3e3e3e;
+}
+
+h1, h2, h3
+{
+    color: #3e3e3e;
+}
+
+h2, h3
+{
+    font-weight: 700;
+}
+
+h1
+{
+    font-weight: 300;
+}
+
+h1 strong
+{
+    font-weight: 700;
+}
+
+em, i
+{
+    font-style: italic;
+}
+
+.image
+{
+    display: inline-block;
+}
+
+.image img
+{
+    display: block;
+    width: 100%;
+}
+
+.image-full
+{
+    display: block;
+    width: 100%;
+    margin: 0 0 2em 0;
+}
+
+.image-left
+{
+    float: left;
+    margin: 0 2em 2em 0;
+}
+
+.image-centered
+{
+    display: block;
+    margin: 0 0 2em 0;
+}
+
+.image-centered img
+{
+    margin: 0 auto;
+    width: auto;
+}
+
+.button
+{
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    text-shadow: -1px -1px 0.5px rgba(0,0,0,0.5);
+    overflow: hidden;
+    background: #61b8db;
+    background-image: -moz-linear-gradient(top, rgba(97,184,219,0), rgba(48,141,196,1));
+    background-image: -webkit-linear-gradient(top, rgba(97,184,219,0), rgba(48,141,196,1));
+    background-image: -o-linear-gradient(top, rgba(97,184,219,0), rgba(48,141,196,1));
+    background-image: -ms-linear-gradient(top, rgba(97,184,219,0), rgba(48,141,196,1));
+    background-image: linear-gradient(top, rgba(97,184,219,0), rgba(48,141,196,1));
+    box-shadow: inset 0px 0px 0px 1px #135c86, inset 0px 2px 1px 0px rgba(255,255,255,0.75);
+    -moz-transition: background-color .2s ease-in-out;
+    -webkit-transition: background-color .2s ease-in-out;
+    -o-transition: background-color .2s ease-in-out;
+    -ms-transition: background-color .2s ease-in-out;
+    transition: background-color .2s ease-in-out;
+}
+
+.button:before
+{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.button:hover
+{
+    background-color: #76cdf0;
+    color: #fff !important;
+}
+
+.button:active
+{
+    background-image: -moz-linear-gradient(top, rgba(48,141,196,1), rgba(77,164,199,0));
+    background-image: -webkit-linear-gradient(top, rgba(48,141,196,1), rgba(77,164,199,0));
+    background-image: -o-linear-gradient(top, rgba(48,141,196,1), rgba(77,164,199,0));
+    background-image: -ms-linear-gradient(top, rgba(48,141,196,1), rgba(77,164,199,0));
+    background-image: linear-gradient(top, rgba(48,141,196,1), rgba(77,164,199,0));
+    box-shadow: inset 0px 0px 0px 1px #135c86, inset 0px -2px 1px 0px rgba(255,255,255,0.75);
+    top: 1px;
+}
+
+.button-alt
+{
+    background-color: #393939;
+    background-image: -moz-linear-gradient(top, rgba(50,50,50,0), rgba(45,45,45,1));
+    background-image: -webkit-linear-gradient(top, rgba(50,50,50,0), rgba(45,45,45,1));
+    background-image: -o-linear-gradient(top, rgba(50,50,50,0), rgba(45,45,45,1));
+    background-image: -ms-linear-gradient(top, rgba(50,50,50,0), rgba(45,45,45,1));
+    background-image: linear-gradient(top, rgba(50,50,50,0), rgba(45,45,45,1));
+    box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255,255,255,0.2);
+}
+
+.button-alt:hover
+{
+    background-color: #444;
+}
+
+.button-alt:active
+{
+    background-image: -moz-linear-gradient(top, rgba(45,45,45,1), rgba(50,50,50,0));
+    background-image: -webkit-linear-gradient(top, rgba(45,45,45,1), rgba(50,50,50,0));
+    background-image: -o-linear-gradient(top, rgba(45,45,45,1), rgba(50,50,50,0));
+    background-image: -ms-linear-gradient(top, rgba(45,45,45,1), rgba(50,50,50,0));
+    background-image: linear-gradient(top, rgba(45,45,45,1), rgba(50,50,50,0));
+    box-shadow: inset 0px 0px 0px 1px #242424, inset 0px -2px 1px 0px rgba(255,255,255,0.2);
+}
+
+ul.social li
+{
+    position: relative;
+    display: inline-block;
+    margin: 0.25em;
+    top: 0;
+    border-radius: 8px;
+}
+.wrapper
+{
+    padding: 4em 0 4em 0;
+    text-align: center;
+    box-shadow: inset 0px 1px 0px 0px rgba(0,0,0,0.05), inset 0px 2px 3px 0px rgba(0,0,0,0.1);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto
+}
+
+.\31 2u {
+    width: 100%
+}
+
+.\38 u {
+    width: 66.6666666667%
+}
+
+.\34 u {
+    width: 33.3333333333%
+}
+
+.row>* {
+    padding: 40px 0 0 40px;
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.row+.row>* {
+    padding-top: 40px
+}
+
+.row {
+    margin-left: -40px
+}
+
+.row:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13pt;
+    min-width: 1200px;
+}
+
+h1
+{
+    font-size: 3.25em;
+    letter-spacing: -0.025em;
+}
+
+h2
+{
+    font-size: 2em;
+    letter-spacing: -0.015em;
+}
+
+h3
+{
+    color: #7ECE90;
+    font-size: 1.5em;
+    letter-spacing: -0.015em;
+}
+
+.button
+{
+    padding: 1em 2.35em 1em 2.35em;
+    font-size: 1.1em;
+}
+
+.button-big
+{
+    font-size: 1.5em;
+    letter-spacing: -0.025em;
+}
+.box
+{
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    text-align: center;
+    padding: 2em 2em 2.5em 2em;
+    height: 620px;
+}
+.box h3
+{
+    margin-bottom: 0.25em;
+}
+#top
+{
+    text-align: left;
+}
+
+#top .me
+{
+    width: 20em;
+    height: 20em;
+    margin: 0;
+}
+
+#top h1
+{
+    margin-top: 0.35em;
+}
+
+#top p
+{
+    font-size: 1.5em;
+    line-height: 1.75em;
+}
+
+#contact
+{
+    width: 800px;
+    margin: 0 auto;
+}
+
+#contact footer
+{
+    font-size: 0.9em;
+}
+
+#copyright
+{
+    font-size: 1em;
+}
+
+
+
+@media (max-width: 960px) {
+  .wrapper {
+    width: 500px;
+  }
+
+}
